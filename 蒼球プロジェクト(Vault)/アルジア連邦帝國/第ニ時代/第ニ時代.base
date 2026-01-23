@@ -1,0 +1,19 @@
+# 第ニ時代
+
+filters:
+  and:
+    - note["base"] == link("第ニ時代.base")
+properties:
+  file.name:
+    displayName: ページ
+  最終更新日時:
+    displayName: 最終更新日時
+  タグ:
+    displayName: タグ
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - 最終更新日時
+      - タグ
