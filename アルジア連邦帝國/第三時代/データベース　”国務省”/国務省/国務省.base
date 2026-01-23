@@ -1,0 +1,19 @@
+# 国務省
+
+filters:
+  and:
+    - note["base"] == link("国務省.base")
+properties:
+  file.name:
+    displayName: 名前
+  ステータス:
+    displayName: ステータス
+  最終更新日時:
+    displayName: 最終更新日時
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - ステータス
+      - 最終更新日時
