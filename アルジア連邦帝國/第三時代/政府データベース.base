@@ -1,3 +1,6 @@
+filters:
+  and:
+    - file.folder == "アルジア連邦帝國/第三時代/政府"
 views:
   - type: table
     name: Table
