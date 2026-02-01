@@ -4,3 +4,8 @@ filters:
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - ステータス
+    columnSize:
+      file.name: 546
