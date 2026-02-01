@@ -6,6 +6,14 @@ views:
     name: Table
     order:
       - file.name
+      - 作成日
+      - 分類
+      - 部署
     sort:
+      - property: 部署
+        direction: DESC
       - property: file.name
         direction: ASC
+    columnSize:
+      file.name: 437
+      note.分類: 172
