@@ -9,6 +9,7 @@ views:
       - ステータス
       - 担当省
       - 担当庁
+      - 作成日
     columnSize:
       file.name: 546
       note.担当省: 147
